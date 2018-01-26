@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "linuxFinal"
-  config.vm.box_url = "http://www49.uptobox.com/d/siy3cbuyhcdaoxsq3zcpg3tapsdjjooynoszkgylty34s6biadr7rwugt4kyxc7pdjvpmhh3zxtkmvy/PSI.box"
+  config.vm.box_url = "http://www19.uptobox.com/d/wqy3dimxhcdaoxsq2zcpg3r4enxsjcxmplg7zwnlz5bb4uofzzdwsrpeadepkhbc5vdtdclhd75duma/PSI2.box"
      config.ssh.username = "jf"
 config.ssh.password = "toto"
   config.vm.provision :shell, path: "install.sh"
